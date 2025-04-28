@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+    --fontdestaque: 'Russo One', sans-serif;
+    font-family: var(--fontepadrao);
+}
+img {
+    border-radius: 5px;
+}
+
+.links {
+    font-style: italic;
+    font-style: bold;
+    color: blueviolet;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: var(--fontdestaque);
+    font-style: bold;
+    color: grey;
+    text-shadow: 1px 1px 5px grey;
+}
+
+figcaption {
+    font-style: italic;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+.links:hover {
+    color: rgb(255, 0, 179);
+    text-decoration: double;
+}
+
+.titulo {
+    position: relative;
+    background-color: aliceblue;
+    height: fit-content;
+    width: fit-content;
+
+    font-family: var(--fontdestaque);
+    font-style: bold;
+    color: #000000;
+
+    border: none;
+    border-radius: 1px;
+}
+
+
+.lista > li{
+    color: green;
+}
